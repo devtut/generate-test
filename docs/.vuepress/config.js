@@ -1,5 +1,6 @@
 module.exports = {
-  title: "DevTut",
+  base: '/generate-test-deploy/',
+  title: "DevTut Test",
   description:
     "Example based programming tutorials for solid developers. Master 45+ programming topics.",
   head: [
@@ -9,7 +10,7 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/favicon-32x32.png",
+        href: "/generate-test-deploy/favicon-32x32.png",
       },
     ],
     [
@@ -18,10 +19,10 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/favicon-16x16.png",
+        href: "/generate-test-deploy/favicon-16x16.png",
       },
     ],
-    ["link", { rel: "manifest", href: "/site.webmanifest" }],
+    ["link", { rel: "manifest", href: "/generate-test-deploy/site.webmanifest" }],
     ["meta", { name: "theme-color", content: "#ffffff" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
@@ -33,14 +34,14 @@ module.exports = {
       {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/apple-touch-icon.png",
+        href: "/generate-test-deploy/apple-touch-icon.png",
       },
     ],
     [
       "link",
       {
         rel: "mask-icon",
-        href: "/safari-pinned-tab.svg",
+        href: "/generate-test-deploy/safari-pinned-tab.svg",
         color: "#5bbad5",
       },
     ],
@@ -48,7 +49,7 @@ module.exports = {
       "meta",
       {
         name: "msapplication-TileImage",
-        content: "/mstile-150x150.png",
+        content: "/generate-test-deploy/mstile-150x150.png",
       },
     ],
     ["meta", { name: "msapplication-TileColor", content: "#da532c" }],
@@ -63,7 +64,7 @@ module.exports = {
   shouldPrefetch: () => false,
   themeConfig: {
     image: "/logo.png",
-    repo: "devtut/generate",
+    repo: "devtut/generate-test",
     editLinks: true,
     docsDir: "docs",
     algolia: {

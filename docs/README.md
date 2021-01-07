@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /logo.png
-heroText: DevTut
+heroImage: /generate-test-deploy/logo.png
+heroText: DevTut Test
 # tagline: Search Topic
 # actionText: Python →
 # actionLink: /python/
