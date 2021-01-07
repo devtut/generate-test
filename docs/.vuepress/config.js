@@ -10,7 +10,7 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/generate-test-deploy/favicon-32x32.png",
+        href: "/favicon-32x32.png",
       },
     ],
     [
@@ -19,10 +19,10 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/generate-test-deploy/favicon-16x16.png",
+        href: "/favicon-16x16.png",
       },
     ],
-    ["link", { rel: "manifest", href: "/generate-test-deploy/site.webmanifest" }],
+    ["link", { rel: "manifest", href: "/site.webmanifest" }],
     ["meta", { name: "theme-color", content: "#ffffff" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
@@ -34,14 +34,14 @@ module.exports = {
       {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/generate-test-deploy/apple-touch-icon.png",
+        href: "/apple-touch-icon.png",
       },
     ],
     [
       "link",
       {
         rel: "mask-icon",
-        href: "/generate-test-deploy/safari-pinned-tab.svg",
+        href: "/safari-pinned-tab.svg",
         color: "#5bbad5",
       },
     ],
@@ -49,7 +49,7 @@ module.exports = {
       "meta",
       {
         name: "msapplication-TileImage",
-        content: "/generate-test-deploy/mstile-150x150.png",
+        content: "/mstile-150x150.png",
       },
     ],
     ["meta", { name: "msapplication-TileColor", content: "#da532c" }],
@@ -65,6 +65,7 @@ module.exports = {
   themeConfig: {
     image: "/logo.png",
     repo: "devtut/generate-test",
+    docsBranch: 'main',
     editLinks: true,
     docsDir: "docs",
     algolia: {
