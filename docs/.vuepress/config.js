@@ -53,13 +53,6 @@ module.exports = {
       },
     ],
     ["meta", { name: "msapplication-TileColor", content: "#da532c" }],
-    [
-      "meta",
-      {
-        name: "google-site-verification",
-        content: "76_rKXgwMVIjd-axJC_1zPV9OS4mEjvtgjYOWVkAdnQ",
-      },
-    ],
   ],
   shouldPrefetch: () => false,
   themeConfig: {
@@ -4389,28 +4382,6 @@ module.exports = {
     },
   },
   plugins: [
-    // [
-    //   "@vuepress/google-analytics",
-    //   {
-    //     ga: "UA-145300963-3",
-    //   },
-    // ],
     ["@vuepress/back-to-top", true],
-    [
-      "sitemap",
-      {
-        hostname: "https://devtut.github.io",
-      },
-    ],
-    [
-      "seo",
-      {
-        title: ($page) => $page.frontmatter.metaTitle,
-        description: ($page) => $page.frontmatter.description,
-        twitterCard: (_) => "summary_large_image",
-        type: ($page) => "article",
-        image: ($page, $site) => $site.themeConfig.image,
-      },
-    ],
   ],
 };
